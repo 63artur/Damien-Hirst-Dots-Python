@@ -21,9 +21,9 @@ def line():
         timmy.dot(20)
         timmy.penup()
         timmy.forward(50)
-for _ in range(10):  # Adjust rows as needed
+for _ in range(10):
     line()
-    timmy.backward(500)  # Move back to the start of the row
+    timmy.backward(500)
     timmy.left(90)
     timmy.forward(50)
     timmy.right(90)
